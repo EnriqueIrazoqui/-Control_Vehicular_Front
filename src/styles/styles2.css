@@ -1,0 +1,124 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title1{
+size: 20px;
+padding-left: 20px;
+}
+
+.linea{
+    color: #33179c;
+}
+
+.contenedor-search{
+    margin-bottom: 40px;
+}
+
+
+.titulo-buscador{
+    display: block;
+    padding-top: 40px;
+    padding-left: 160px;
+    margin-bottom: 10px;
+}
+
+.search-input{
+    margin-left: 20px;
+    height: 30px; 
+    border-color: #33179c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px; 
+}
+
+.boton-agregar{
+    margin-left: 1100px;
+    border: none;
+    color: white;
+    background-color: #33179c;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;     
+    
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+.table-vehiculos{
+    display: block;
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+    background-color: #d9d9d9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+ }
+
+ thead tr { 
+    color: black; 
+    text-align: center; 
+    padding-bottom: 5px;
+}
+
+th td{
+    text-align: center;
+}
+
+tbody tr td { 
+    background-color: white;
+    text-align: center;
+    padding-bottom: 5px;
+} 
+
+tbody tr{
+    border-color: #33179c;
+    border-width: 1.5px;
+    border-style: solid;
+}
+
+.actualizar{
+    border: none;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;  
+}
+
+.delete{
+    border: none;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;  
+}
+
+a{
+  outline: none;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+    opacity: 0.8;
+  }
+
+  a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
